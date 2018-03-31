@@ -1,3 +1,8 @@
+## This description is taken from this repo ##
+(https://github.com/mitul227/Chord-DHT)  
+## we modify it to make it understandable for the students ##
+
+
 # Chord-DHT
 Implementation of Chord P2P Distributed Hash Table
 
