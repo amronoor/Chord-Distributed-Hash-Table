@@ -2,14 +2,16 @@
 #this description was taken from this repo https://github.com/mitul227/Chord-DHT 
 and we modify it to make it understanable for the students.
 
-Chord-DHT
+**Chord-DHT
 
 Implementation of Chord P2P Distributed Hash Table
 
 More Information about Chord Protocol can be found here - https://en.wikipedia.org/wiki/Chord_(peer-to-peer)
 
 Typing "help" will show all supported commands
-Implementation
+
+
+**Implementation
 
 Each node will be assigned a unique ID (within 2^m (m is 48 in this case)) by hashing key which will be "ip:port" of that node by SHA-1 Algorithm
 
@@ -30,7 +32,8 @@ When a node newly joins the ring, it gets all those keys from it's successor whi
 When a node leaves the ring, it transfers all it's keys to it's successor
 
 m has been set to 48 in this implementation that means a maximum of 2^48 nodes can join the ring
-Files
+
+**Files
 
 main.cpp is the main file
 
@@ -41,7 +44,8 @@ A class named NodeInformation is made which contains all the information of a No
 Another class SocketAndPort is made which contains all the information about socket ,ip address and port number. Object of class SocketAndPort is inside NodeInformation class
 
 Another class HelperClass is made which contains all helper functions which are required by a node to perform various tasks
-Supported Commands
+
+**Supported Commands
 
 typing "help" in the terminal shows all supported commands
 
@@ -60,6 +64,7 @@ port "number" - will change port number to mentioned number if that port is free
 put "key" "value" - will put key and value to the node it belongs to
 
 get "key" - will get value of mentioned key
-Execution
+
+**Execution
 
 A Makefile has also been included. Just type make to build the whole project
